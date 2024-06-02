@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Keybind Extension</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Keybind Settings</h1>
+    <div class="keybind">
+        <label for="goBack">Go Back:</label>
+        <input type="text" id="goBack" placeholder="Ctrl+Left">
+    </div>
+    <div class="keybind">
+        <label for="goForward">Go Forward:</label>
+        <input type="text" id="goForward" placeholder="Ctrl+Right">
+    </div>
+    <div class="keybind">
+        <label for="refreshPage">Refresh Page:</label>
+        <input type="text" id="refreshPage" placeholder="Ctrl+R">
+    </div>
+    <div class="keybind">
+        <label for="highlightLinks">Highlight Links:</label>
+        <input type="text" id="highlightLinks" placeholder="Ctrl+L">
+    </div>
+    <button id="save">Save</button>
+    <script src="popup.js"></script>
+</body>
+</html>
